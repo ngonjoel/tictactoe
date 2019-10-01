@@ -1,0 +1,68 @@
+h1{
+	color:blue;
+}
+
+body
+{
+	background-color:#ab6104;
+}
+.score
+{
+	color:maroon;
+	font-size:18px;
+	font-family:Georgia;
+	
+}
+#verdict1
+{
+	color:#1b043a;
+	font-weight:bold;
+	font-size:large
+}
+#verdict2
+{
+	color:#1b043a;
+	font-weight:bold;
+	font-size:large
+}
+
+#verdictnul
+{
+	color:#1b043a;
+	font-weight:bold;
+	font-size:large
+}
+
+#rien
+{
+	
+	font-weight:bold;
+	font-size:large
+}
+
+#joueur1
+{
+	color:#3300FF;
+	font-weight:bold;
+	font-size:large
+}
+#joueur2
+{
+	color:#eb17c3;
+	font-weight:bold;
+	font-size:large
+}
+
+#joueurA
+{
+	color:#3300FF;
+	font-weight:bold;
+	font-size:small;
+}
+
+#joueurB
+{
+	color:#eb17c3;
+	font-weight:bold;
+	font-size:small;
+}

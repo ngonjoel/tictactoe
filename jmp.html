@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC >
+<html>
+	<head>
+		<title>Tic-Tac-Toe</title>
+		<meta charset= "utf-8"/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body onLoad="lancementJeu()">
+		<div align="center">
+		  <h1>BIENVENU DANS LA PARTIE !!!</h1>
+		  <form name="tictac" method="post" action="">
+			<p>
+			  <input type="button" name="tourjeu" value="Appuyez sur jouer !">
+			</p>
+			<table border="10" cellspacing="2">
+			  <tr>
+				<td><input name="case0" type="button" value=" " onClick="game('0')"></td>
+				<td><input name="case1" type="button" value=" " onClick="game('1')"></td>
+				<td><input name="case2" type="button" value=" " onClick="game('2')"></td>
+			  </tr>
+			  <tr>
+				<td><input name="case3" type="button" value=" " onClick="game('3')"></td>
+				<td><input name="case4" type="button" value=" " onClick="game('4')"></td>
+				<td><input name="case5" type="button" value=" " onClick="game('5')"></td>
+			  </tr>
+			  <tr>
+				<td><input name="case6" type="button" value=" " onClick="game('6')"></td>
+				<td><input name="case7" type="button" value=" " onClick="game('7')"></td>
+				<td><input name="case8" type="button" value=" " onClick="game('8')"></td>
+			  </tr>
+			</table>
+		  </form>
+				<p><a href="#" onClick="nouveauJeu()">Jouer</a></p>
+				
+			<form name="score" method="post" action="">
+				<p class="score">Votre nombre de victoires : 
+					<input name="info1" type="text" value="" size="3" disabled>
+				</p>
+				<p class="score">Nombre de victoires de l'ordinateur :
+					<input name="info2" type="text" value="" size="3" disabled>
+				</p>
+				<p class="score">Nombre de matchs nuls:
+					<input name="info3" type="text" value="" size="3" disabled>
+				</p>
+			</form>
+		</div>
+
+		<script language="javascript" src="jmp.js">
+		
+		</script>
+
+
+	</body>
+</html>
